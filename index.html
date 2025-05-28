@@ -6,6 +6,32 @@
   <title>Slang, Accents & Youth Culture</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    .video-container {
+  max-width: 800px;
+  width: 90%;
+  background-color: #1e1e1e;
+  border: 2px solid #444;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  outline: none;
+}
+
+.video-title {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  background-color: #222;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+}
     * {
       margin: 0;
       padding: 0;
@@ -126,6 +152,18 @@
       </p>
     </div>
   </section>
+  
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <div class="video-container">
+    <div class="video-title">Meu Vídeo Incrível</div>
+    <video controls>
+      <source src="URL_DO_SEU_VIDEO_AQUI.mp4" type="video/mp4">
+      Seu navegador não suporta a reprodução de vídeo.
+    </video>
+  </div>
 
   <footer>
     &copy; 2025 - English Project by Class 206, Bolívar de Freitas 💜
